@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clear {
+  display: none;
+}
+
+body {
+  background: rgb(235, 206, 207);
+  background: linear-gradient(
+    90deg,
+    rgba(235, 206, 207, 1) 50%,
+    rgba(2, 44, 66, 1) 100%
+  );
+}
+
+.top {
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  /* font-weight: bolder; */
+  color: black;
+  /* padding-bottom: 30px; */
+  margin-top: 15px;
+  text-align: center;
+}
+
+.logo {
+  margin-left: 30px;
+  padding-top: 10px;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-family: "Roboto", sans-serif;
+  margin-top: 88px;
+}
+
+.wrapper {
+  align-items: center;
+  text-align: center;
+}
+
+.login-btn {
+  width: 200px;
+  font-size: 20px;
+  padding: 25px;
+  border-radius: 50px;
+  margin-top: 50px;
+  background: transparent;
+  border: 2px solid black;
+  color: black;
+  outline: none;
+}
+
+.login-btn:hover {
+  text-decoration: underline;
+}
+
+.sign-up-btn:hover {
+  text-decoration: underline;
+}
+
+.sign-up-btn {
+  /* margin-left: 250px; */
+  width: 200px;
+  font-size: 20px;
+  padding: 25px;
+  border-radius: 50px;
+  margin-top: 50px;
+  background: transparent;
+  border: 2px solid white;
+  color: rgb(255, 255, 255);
+  outline: none;
+}
+
+.login {
+  background: url("../img/apple-background-desk.jpg");
+  background-size: 768px 568px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  /* margin-top: 300px; */
+  padding-top: 200px;
+  padding-bottom: 200px;
+  color: black;
+  transition: background-image 2s;
+}
+
+.sign-up {
+  background: url("../img/empty-hallway-with-lights-turned-on-1236044.jpg");
+  background-size: 768px 568px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  color: white;
+}
+
+.login:hover {
+  opacity: 0.5;
+}
+
+.sign-up:hover {
+  opacity: 0.5;
+}
+
+/* Login Box */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: none;
+}
+
+h2 {
+  padding-top: 40px;
+  text-align: center;
+  color: white;
+}
+
+.login-box {
+  margin: 150px 450px;
+  width: 250px;
+  background: rgb(255, 172, 178);
+  border-radius: 10px;
+  border: 2px solid white;
+  transform: scale(1.15);
+  transition: margin 2s ease-in;
+  font-family: "Roboto", sans-serif;
+}
+
+.login-btn-box {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  width: 80px;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: white;
+}
+
+.login-btn-box:focus body {
+  margin-top: -1000px;
+}
+
+.login-btn a {
+  margin-bottom: 30px;
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  margin-top: 30px;
+}
+
+input {
+  width: 200px;
+  height: 40px;
+  margin-top: 20px;
+  background: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid white;
+  color: white;
+}
+
+input::placeholder {
+  color: white;
+}

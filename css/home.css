@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.top {
+  text-align: right;
+  height: 40px;
+  background: black;
+  color: white;
+}
+
+.wrap {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+div {
+  height: 95vh;
+}
+
+.first {
+  background-color: violet;
+  transition: all 2s ease-in;
+}
+
+.first:hover {
+  width: 500px;
+}
+
+.second {
+  background-color: teal;
+}
+
+.second:hover {
+  width: 500px;
+}
+
+.third {
+  background-color: blue;
+}
+
+.fourth {
+  background-color: coral;
+}

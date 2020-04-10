@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top {
+  font-size: 38px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  align-items: center;
+}
+
+.logo {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.sign-up {
+  width: 430px;
+  margin: 50px auto;
+  align-items: center;
+  text-align: left;
+}
+
+.sign-up-btn {
+  margin-left: 50px;
+  width: 320px;
+  font-size: 14px;
+  line-height: 1;
+  border-radius: 500px;
+  padding: 16px 48px 18px;
+  background-color: #1db954;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: white;
+}
+
+input {
+  width: 430px;
+  height: 45px;
+  margin-bottom: 17px;
+  border-radius: 2px;
+  border: 1px solid #dfe0e6;
+  color: #1c1c1f;
+  line-height: 1.5;
+}
+
+input::placeholder {
+  font-size: 14px;
+  padding-left: 15px;
+}
+
+input[type="day"] {
+  width: 100px;
+}
+
+.small {
+  width: 130px;
+}
+
+.medium {
+  width: 190px;
+}
+
+label {
+  text-align: left;
+}
+
+.radio {
+  text-align: center;
+}
+.radio input {
+  width: initial;
+  height: initial;
+}
+
+.wrap {
+  width: 80%;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+h3 {
+  padding-top: 30px;
+}
